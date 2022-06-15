@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Sistema de Recados</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container cadastro-container">
+            <form id="formulario-cadastro">
+                <h1>Create an account</h1>
+                <span>Use your email to register</span>
+                <input type="text" placeholder="Nome" id="input-cadastro-nome" />
+                <input type="email" placeholder="E-mail" id="input-cadastro-email" />
+                <input type="password" placeholder="Senha" id="input-cadastro-senha" />
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form id="formulario-login">
+                <h1>SING IN</h1>
+                <span>or use your account</span>
+                <input type="email" placeholder="E-mail" id="input-login-email" required />
+                <input type="password" placeholder="Senha" id="input-login-senha" required />
+                <a href="#">Forgot your password?</a>
+                <button type="submit">SING IN</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <button class="btn-animacao" id="signIn">Access my account</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us </p>
+                    <button class="btn-animacao" id="signUp">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

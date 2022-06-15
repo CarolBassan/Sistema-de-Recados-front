@@ -1,0 +1,83 @@
+#app {
+  background: linear-gradient(to bottom, #eb390d, #c20a0a) no-repeat fixed;
+}
+
+.color-primary {
+  color: #eb390d;
+}
+
+.color-secondary {
+  color: #bf0b04;
+}
+
+.icon-detail {
+  font-size: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+header {
+  border-bottom: 1px solid #bebcbc;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.buttom-default:hover {
+  background-color: #fa0f0b !important;
+  color: white !important;
+}
+
+.link-default {
+  color: #820b03;
+  cursor: pointer;
+}
+
+.link-default:hover {
+  color: #eb390d;
+}
+
+.info {
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 0px 0px;
+}
+
+.buttom-default {
+  border-radius: 10px;
+  background-color: #eb390d !important;
+  color: #ffffff !important;
+}
+
+.button-cancel {
+  border-radius: 10px;
+}
+
+.button-float {
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  padding: 0;
+  bottom: 1rem;
+  right: 2rem;
+  font-size: 35px;
+  line-height: 0.5 !important;
+  background-color: #b50a0a;
+  color: white;
+  background-color: #b50a0a;
+  border: 1px solid ;
+}
+
+.button-float:hover {
+  border: 1px solid #eb390d;
+  background-color: white;
+  color: #eb390d;
+}
+
+.logout {
+  min-width: 5rem !important;
+}
+
+.menu {
+  margin-right: 20px;
+}
